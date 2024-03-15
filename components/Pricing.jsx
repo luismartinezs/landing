@@ -23,7 +23,7 @@ const Pricing = () => {
       <h2 className="text-4xl font-bold mb-6">Save hours of boring code and ship faster!</h2>
       <div className="flex flex-col md:flex-row justify-center gap-6 px-4">
         {plans.map((plan, index) => (
-          <div key={index} className={`relative min-w-[400px] bg-white p-6 rounded-lg shadow-md ${plan.isPopular ? 'border-4 border-purple-500' : ''}`}>
+          <div key={index} className={`relative md:min-w-[400px] bg-white p-6 rounded-lg shadow-md ${plan.isPopular ? 'border-4 border-purple-500' : ''}`}>
             {plan.isPopular && (
               <span className="bg-purple-500 text-white py-1 px-3 rounded-full text-sm absolute top-0 left-[30%] right-[30%] transform -translate-y-1/2">
                 POPULAR
