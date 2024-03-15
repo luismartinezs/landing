@@ -15,7 +15,7 @@ const CTA = () => {
           Boost your app, launch, earn
         </h1>
         <p className="mb-8">
-          Don't waste time integrating APIs or designing a pricing section...
+          Don&apos;t waste time integrating APIs or designing a pricing section...
         </p>
         <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-6 rounded">
           Get ShipFast

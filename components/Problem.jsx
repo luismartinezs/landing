@@ -7,7 +7,7 @@ const Problem = () => {
         80% of startups fail because founders never launch
       </h2>
       <p className="mb-6">
-        Emails, DNS records, user authentication... There's so much going on.
+        Emails, DNS records, user authentication... There&apos;s so much going on.
       </p>
       <div className="flex justify-center items-center space-x-4">
         <div className="flex flex-col items-center">
